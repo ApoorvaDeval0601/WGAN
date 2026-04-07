@@ -1,0 +1,54 @@
+# -----------------------------
+# Python (Backend / WGAN)
+# -----------------------------
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model weights / checkpoints (VERY IMPORTANT)
+*.pt
+*.pth
+*.ckpt
+
+# Data / outputs (if any)
+data/
+datasets/
+outputs/
+results/
+logs/
+
+# -----------------------------
+# Node (Frontend)
+# -----------------------------
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# -----------------------------
+# Environment variables
+# -----------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# VS Code / IDE
+# -----------------------------
+.vscode/
+.idea/
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.log
+*.tmp

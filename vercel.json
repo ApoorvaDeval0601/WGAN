@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "frontend/index.html"
+    }
+  ],
+  "notes": [
+    "The Python FastAPI backend is NOT deployed here — it runs locally.",
+    "For Vercel deployment, the frontend connects to the locally-running API.",
+    "Students without Vercel should just open frontend/index.html in a browser.",
+    "To run the full stack locally: see README.md"
+  ]
+}
