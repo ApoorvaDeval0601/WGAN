@@ -1,7 +1,7 @@
 # WGAN — Lab 5 | ATML · NMIMS MPSTME
 
 **Wasserstein Generative Adversarial Network on CIFAR-10**  
-Course: Advanced Topics in Machine Learning | Sem VI/VIII
+Course: Advanced Topics in Machine Learning | Sem VI
 
 ---
 
